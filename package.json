@@ -1,0 +1,21 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "tsc",
+    "start": "tsc && cp ./src/*.{html,css} ./dist/ && electron ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.9.0",
+    "electron": "^33.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
